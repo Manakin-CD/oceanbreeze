@@ -1,0 +1,117 @@
+/* Estilos Responsive */
+
+/* Tablets y pantallas medianas */
+@media (max-width: 992px) {
+    .hero h1 {
+        font-size: 3rem;
+    }
+    
+    .hero .lead {
+        font-size: 1.3rem;
+    }
+    
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .btn-explorar,
+    .btn-reservar {
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    .destination-image {
+        height: 220px;
+    }
+    
+    .destination-title {
+        font-size: 1.3rem;
+    }
+}
+
+/* Móviles */
+@media (max-width: 768px) {
+    .hero {
+        height: 100vh;
+        background-attachment: scroll;
+    }
+    
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero .lead {
+        font-size: 1.1rem;
+    }
+    
+    .navbar-brand img {
+        height: 50px;
+    }
+    
+    .service-card {
+        margin-bottom: 1.5rem;
+    }
+    
+    .destination-card {
+        margin-bottom: 1.5rem;
+    }
+    
+    .destination-image {
+        height: 200px;
+    }
+    
+    .destination-title {
+        font-size: 1.2rem;
+    }
+    
+    .destination-description {
+        font-size: 0.9rem;
+    }
+    
+    .destination-details {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+    
+    .transport-section {
+        padding: 50px 0;
+    }
+    
+    .whatsapp-float {
+        width: 50px;
+        height: 50px;
+        bottom: 20px;
+        right: 20px;
+        font-size: 24px;
+    }
+    
+    .scroll-indicator {
+        font-size: 1.5rem;
+        bottom: 20px;
+    }
+}
+
+/* Pantallas muy pequeñas */
+@media (max-width: 576px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+    
+    .hero .lead {
+        font-size: 1rem;
+    }
+    
+    .btn-explorar,
+    .btn-reservar {
+        padding: 12px 25px;
+        font-size: 1rem;
+    }
+    
+    .nav-link {
+        margin-left: 0;
+        padding: 0.5rem 0;
+    }
+}
+
